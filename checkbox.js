@@ -1,4 +1,4 @@
-checkbox.addEventListener("click", (event) => {
+let checkbox = checkbox.addEventListener("click", (event) => {
   if (checkbox.classList.contains("on")) {
     checkbox.setAttribute("aria-checked", "false");
   } else {
