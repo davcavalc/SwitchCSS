@@ -10,11 +10,26 @@
 </head>
 
 <body>
-    <button class="checkbox" role="switch" aria-checked="false">
-    </button>
+    <div class="container">
+        <h1>Test To-Do List</h1>
+        <div class="items">
+            <input type="checkbox" id="item1" checked>
+            <label for="item1">Create a to-do list</label>
+            <input type="checkbox" id="item2" checked>
+            <label for="item2">Take down Chrismas tree</label>
+            <input type="checkbox" id="item3" checked>
+            <label for="item3">Learn Ember.js</label>
+            <input type="checkbox" id="item4" checked>
+            <label for="item4">Watch TV</label>
+            <input type="checkbox" id="item5" checked>
+            <label for="item5">Alphabetize everything in the fridge</label>
+            <input type="checkbox" id="item6" checked>
+            <label for="item6">Do 10 pull-ups without dropping</label>
 
-    <checkbox>Teste</checkbox>
-    <script src="checkbox.js"></script>
+            <h2 class="done" aria-hidden="true">Done</h2>
+            <h2 class="undone" aria-hidden="false">Not done</h2>
+        </div>
+    </div>
 </body>
 
 </html>
